@@ -1,0 +1,75 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pino-pretty.log
+
+# Test coverage
+coverage/
+
+# Cache directories
+.npm/
+.eslintcache
+.cache/
+*.tsbuildinfo
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Scan artifacts and reports
+artifacts/
+reports/
+scans/
+output/
+
+# Puppeteer/Chromium
+.local-chromium/
+puppeteer_data/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Secrets and credentials (never commit these)
+*.pem
+*.key
+*.crt
+credentials.json
+secrets.json
+service-account*.json
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
